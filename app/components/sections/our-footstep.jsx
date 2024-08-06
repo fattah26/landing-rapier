@@ -7,18 +7,18 @@ export default function OurFootstep() {
   return (
     <section
       id="portfolio"
-      className="flex flex-col items-center py-[50px] tablet:py-[80px] px-[30px] tablet:px-[50px] desktop:px-[130px] gap-[100px] tablet:gap-[80px] "
+      className="flex flex-col items-center py-[50px] tablet:py-[80px] px-[30px] tablet:px-[50px] desktop:px-[130px] gap-[100px] tablet:gap-[80px]"
     >
-      <div className="flex flex-col text-center gap-[30px] tablet:px-[50px] desktop:px-[130px]  ">
+      <div className="flex flex-col text-center gap-[30px] tablet:px-[50px] desktop:px-[130px]">
         <h1 className="font-mobile-title-main tablet:text-[48px]">
           Our <span className="text-alert">Footsteps</span>
         </h1>
         <p className="font-mobile-text-main tablet:text-[16px]">
-          Our company's trail of success and innovation
+          Our company&apos;s trail of success and innovation
         </p>
       </div>
       <div className="flex">
-        <div className="grid items-center justify-center w-full h-full grid-cols-1 gap-[50px] desktop:grid-cols-3 ">
+        <div className="grid items-center justify-center w-full h-full grid-cols-1 gap-[50px] desktop:grid-cols-3">
           {TOPPROJECT.map((project) => (
             <Link
               href={`/${project.alt}`}
@@ -49,7 +49,7 @@ export default function OurFootstep() {
           <p className="font-mobile-text-main tablet:text-[16px]">See More</p>
           <Image
             src="/images/logo/angle-small-right.svg"
-            alt=""
+            alt="Arrow icon"
             width={20}
             height={20}
           />
